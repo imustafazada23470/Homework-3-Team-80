@@ -4,5 +4,8 @@
 }
 
 body {
-    background-color: var(--ada-blue);
+    background-color:;
 }
+ a{
+    color: magenta;
+ }
