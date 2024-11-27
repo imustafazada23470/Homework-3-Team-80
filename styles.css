@@ -11,5 +11,6 @@ body {
  }
 
  .intro{
-    justify-content: center;
+    text-align:center;
+    color: green; 
  }
