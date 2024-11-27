@@ -9,3 +9,7 @@ body {
  a{
     color: magenta;
  }
+
+ .intro{
+    justify-content: center;
+ }
