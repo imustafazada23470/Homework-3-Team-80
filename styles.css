@@ -1,3 +1,7 @@
+:root {
+    --main-bg: linear-gradient(90deg, #06beb6, #48b1bf);
+    --text-color: white;
+}
 
 body {
     font-family: 'Arial', sans-serif;
