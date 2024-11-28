@@ -9,7 +9,7 @@
 .links {
     display: flex;
     justify-content: center; 
-    gap: 15px; 
+    gap: 30px; 
     margin-top: 20px; 
 }
 
@@ -27,4 +27,96 @@
 }
 .intro {
     text-align: center;
+}
+
+
+.Team_Info {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.Team {
+    text-align: center;
+    margin: 20px 0;
+    color: salmon;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.Bahruz, .Ilaha, .Sitara, .Mahmud {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.Info1, .Info2, .Info3, .Info4 {
+    background-color: #e6f7ff;
+    border-left: 5px solid #0047ab;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.Mahmud :hover {
+    color:yellowgreen;
+    cursor: pointer;
+}
+.Sitara :hover {
+    color:yellowgreen;
+    cursor: pointer;
+}
+.Bahruz :hover {
+    color:yellowgreen;
+    cursor: pointer;
+}
+.Ilaha :hover {
+    color:yellowgreen;
+    cursor: pointer;
+}
+
+.Bahruz:hover::after, 
+.Ilaha:hover::after, 
+.Sitara:hover::after, 
+.Mahmud:hover::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 200px; /* Adjust as necessary */
+    border: 3px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Bahruz:hover::after {
+    background-image: url('bahruz.jpg'); 
+}
+.Ilaha:hover::after {
+    background-image: url('ilaha.jpg'); 
+}
+
+.Sitara:hover::after {
+    background-image: url('sitara.jpeg'); 
+}
+
+.Mahmud:hover::after {
+    background-image: url('mahmud.jpg');
+}
+.background-image {
+    background-image: url('https://www.ada.edu.az/assets/img/header/header_it.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
 }
