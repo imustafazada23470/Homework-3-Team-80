@@ -35,13 +35,13 @@
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #fcfcff;
     color: #333;
 }
 .Team {
     text-align: center;
     margin: 20px 0;
-    color: salmon;
+    color: rgb(1, 64, 192);
     font-size: 2em;
     text-decoration: underline;
 }
