@@ -217,10 +217,10 @@ footer.reference p {
     }
 }
 .background-sitara {
-    background-image: url('https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1xamnogug1l2mwdnl011.jpg');
+    background-image: url('https://img.freepik.com/premium-photo/blue-sky-with-clouds-boy-it_900396-5671.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.5; 
+    opacity: 1; 
     position: absolute;
     top: 0;
     left: 0;
