@@ -120,3 +120,98 @@
     height: 100%;
     z-index: -1; 
 }
+body#code.artist.h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333;
+}
+
+header#Mahmood {
+    background-color: #2c3e50; /* Dark background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header#Mahmood h1#CA.generated.by.algorithm {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+main section#introduction,
+main section#algorithmic-design,
+main section#tools,
+main section#gallery {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+section#introduction h2.intro,
+section#algorithmic-design h2.algorithm,
+section#tools h2.tool,
+section#gallery h2.gallery.art {
+    font-family: 'Lobster', cursive;
+    color: #2c3e50;
+}
+
+section#algorithmic-design p.paragraph,
+section#tools p.GENERATIVE,
+section#gallery p.Description {
+    line-height: 1.6;
+}
+
+canvas#example1 {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button#generateArt {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#generateArt:hover {
+    background-color: #1a242f;
+}
+
+footer.reference {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer.reference p.2024.copy {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    header#Mahmood h1#CA.generated.by.algorithm {
+        font-size: 2rem;
+    }
+
+    section {
+        margin: 10px 0;
+        padding: 15px;
+    }
+}
