@@ -108,3 +108,47 @@ window.onload = function () {
     addNavHoverEffects();
     animateHeadings();
 };
+// script.js
+window.onload = function() {
+    const canvas = document.getElementById('example1');
+    const context = canvas.getContext('2d');
+
+    function drawSpiral(x, y, maxRadius, color) {
+        context.beginPath();
+        context.strokeStyle = color;
+        for (let angle = 0; angle < Math.PI * 4; angle += 0.1) {
+            let radius = maxRadius * angle / (Math.PI * 4);
+            let xPos = x + radius * Math.cos(angle);
+            let yPos = y + radius * Math.sin(angle);
+            if (angle === 0) {
+                context.moveTo(xPos, yPos);
+            } else {
+                context.lineTo(xPos, yPos);
+            }
+        }
+        context.stroke();
+        context.closePath();
+    }
+
+    function randomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    function drawRandomSpirals() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < 10; i++) {
+            const x = Math.random() * canvas.width;
+            const y = Math.random() * canvas.height;
+            const maxRadius = Math.random() * 100;
+            const color = randomColor();
+            drawSpiral(x, y, maxRadius, color);
+        }
+    }
+
+    document.getElementById('generateArt').addEventListener('click', drawRandomSpirals);
+};
