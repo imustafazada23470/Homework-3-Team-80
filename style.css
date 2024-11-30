@@ -486,3 +486,11 @@ button#themeToggle:hover {
     bottom: -50px;
     right: -100px;
 }
+.hoc7 {
+    
+    margin-right: 60px;
+    border: 2px solid #8c8282;
+    border-radius: 15px;
+    position: relative;
+    right: -400px;
+}
