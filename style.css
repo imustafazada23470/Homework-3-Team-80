@@ -272,21 +272,6 @@ footer.reference p {
     margin: 0;
 }
 
-<<<<<<< HEAD
-
-@media (max-width: 600px) {
-    header#Mahmood h1#CA.generated.by.algorithm {
-        font-size: 2rem;
-    }
-
-    section {
-        margin: 10px 0;
-        padding: 15px;
-    }
-}
-
-=======
->>>>>>> ef81c365703ea74c063e11e44e9f964db539bc9b
 .background-sitara {
     background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_394561.jpg');
     background-size: cover;
