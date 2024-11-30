@@ -440,7 +440,7 @@ button#themeToggle:hover {
     text-align: center;
     font-weight:bold;
     color: rgb(250, 208, 211);
-    background-color: rgb(127, 17, 17);
+    background-color: rgb(138, 104, 169);
     
  }
  .second {
@@ -568,3 +568,11 @@ button#themeToggle:hover {
     background-color: #45a049; 
 }
 
+body.hocall {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210912/pngtree-aesthetic-background-pink-pastel-image_866344.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
