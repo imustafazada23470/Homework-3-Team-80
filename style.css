@@ -476,4 +476,13 @@ button#themeToggle:hover {
     border-radius: 15px;
     position: relative;
     bottom: -50px;
+    right: -30px;
+}
+.hoc6 {
+    
+    border: 2px solid #8c8282;
+    border-radius: 15px;
+    position: relative;
+    bottom: -50px;
+    right: -100px;
 }
