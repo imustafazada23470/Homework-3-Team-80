@@ -217,7 +217,7 @@ footer.reference p {
     }
 }
 .background-sitara {
-    background-image: url('https://img.freepik.com/premium-photo/blue-sky-with-clouds-boy-it_900396-5671.jpg');
+    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_394561.jpg');
     background-size: cover;
     background-position: center;
     opacity: 1; 
@@ -378,4 +378,29 @@ button#themeToggle:hover {
 
 .dark-theme button#themeToggle:hover {
     background-color: #3388cc;
+}
+ h2{
+    font-family: 'Times New Roman ', "sherif";
+    text-align: center;
+    font-weight:bold;
+    color: rgb(250, 208, 211);
+    background-color: rgb(127, 17, 17)
+ }
+h3{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #af07a1;
+    text-decoration: underline;
+    
+}
+p{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #af07a1;
+    background-color: rgb(254, 221, 227);
+}
+h4{
+    font-family: "Calibri", sans-serif;
+    line-height: 1.8
 }
