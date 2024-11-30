@@ -415,6 +415,8 @@ button#themeToggle:hover {
     color: #af07a1;
     background-color: rgb(254, 221, 227);
     width: 50%;
+    border: 2px solid rgb(254, 221, 227);
+    border-radius: 15px;
 }
 .textofhourodcode {
     font-family: "Calibri", sans-serif;
@@ -445,13 +447,33 @@ button#themeToggle:hover {
 .hoc1 {
     float: right;
     margin-right: 80px;
+    border: 2px solid #8c8282;
+    border-radius: 15px;
 }
 .hoc2 {
     float: right;
     margin-right: 60px;
+    border: 2px solid #8c8282;
+    border-radius: 15px;
 }
 .hoc3 {
     position: relative;
     top: -360px; 
     margin-left: 40px;
+    border: 2px solid #8c8282;
+    border-radius: 15px;
+}
+.hoc4 {
+    float: right;
+    border: 2px solid #8c8282;
+    border-radius: 15px;
+    position: relative;
+    bottom: -50px;
+}
+.hoc5 {
+    float: center;
+    border: 2px solid #8c8282;
+    border-radius: 15px;
+    position: relative;
+    bottom: -50px;
 }
