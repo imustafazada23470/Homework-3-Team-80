@@ -228,3 +228,154 @@ footer.reference p {
     height: 100%;
     z-index: -1; 
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff; /* White background */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.title {
+    color: #333;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+.subtitle {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.profiles {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profiles li {
+    margin: 10px 0;
+}
+
+.profiles a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.profiles a:hover {
+    text-decoration: underline;
+    color: #004b99;
+}
+
+button#themeToggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#themeToggle:hover {
+    background-color: #004b99;
+}
+
+.dark-theme {
+    background-color: #333; /* Dark mode background */
+    color: #fff;
+}
+
+.dark-theme .container {
+    background-color: #444; /* Darker container in dark mode */
+}
+
+.dark-theme .section {
+    background-color: #555;
+}
+
+.dark-theme .title,
+.dark-theme .subtitle {
+    color: #ddd;
+}
+
+.dark-theme .profiles a {
+    color: #66ccff;
+}
+
+.dark-theme .profiles a:hover {
+    color: #3388cc;
+}
+
+.dark-theme button#themeToggle {
+    background-color: #66ccff;
+    color: #333;
+}
+
+.dark-theme button#themeToggle:hover {
+    background-color: #3388cc;
+}

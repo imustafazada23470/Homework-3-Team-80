@@ -152,3 +152,8 @@ window.onload = function() {
 
     document.getElementById('generateArt').addEventListener('click', drawRandomSpirals);
 };
+
+
+function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
+}
