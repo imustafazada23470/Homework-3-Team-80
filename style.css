@@ -390,8 +390,21 @@ button#themeToggle:hover {
  .second {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     color: #af07a1;
-    text-decoration: underline;
+    text-decoration: underline; 
+    margin-left: 15px;
+ }
+.seconds {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #af07a1;
+        text-decoration: underline;
+        margin-left: 400px;
     
+ }
+ .second2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #af07a1;
+    text-decoration: underline; 
+    margin-left: 15px;
     
  }
  .special {
@@ -408,6 +421,24 @@ button#themeToggle:hover {
     line-height: 2;
     font-size: 17px;
     width: 70%;
+    margin-left: 15px;
+    
+    
+}
+.textofhourodcodes {
+    font-family: "Calibri", sans-serif;
+    line-height: 2;
+    font-size: 17px;
+    text-align: left;
+    width: right;
+    margin-left: 400px
+}
+.textofhourodcode2 {
+    font-family: "Calibri", sans-serif;
+    line-height: 2;
+    font-size: 17px;
+    width: 70%;
+    margin-left: 15px;
     
     
 }
@@ -418,4 +449,9 @@ button#themeToggle:hover {
 .hoc2 {
     float: right;
     margin-right: 60px;
+}
+.hoc3 {
+    position: relative;
+    top: -360px; 
+    margin-left: 40px;
 }
