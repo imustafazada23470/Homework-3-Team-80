@@ -401,9 +401,21 @@ button#themeToggle:hover {
     font-size: 18px;
     color: #af07a1;
     background-color: rgb(254, 221, 227);
+    width: 50%;
 }
 .textofhourodcode {
     font-family: "Calibri", sans-serif;
-    line-height: 1.8;
+    line-height: 2;
+    font-size: 17px;
+    width: 70%;
     
+    
+}
+.hoc1 {
+    float: right;
+    margin-right: 80px;
+}
+.hoc2 {
+    float: right;
+    margin-right: 60px;
 }
