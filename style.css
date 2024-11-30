@@ -379,4 +379,28 @@ button#themeToggle:hover {
 .dark-theme button#themeToggle:hover {
     background-color: #3388cc;
 }
- 
+ .Hourofcode {
+    font-family: 'Times New Roman ', "sherif";
+    text-align: center;
+    font-weight:bold;
+    color: rgb(250, 208, 211);
+    background-color: rgb(127, 17, 17)
+ }
+ .second {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #af07a1;
+    text-decoration: underline;
+    
+ }
+ .special {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #af07a1;
+    background-color: rgb(254, 221, 227);
+}
+.textofhourodcode {
+    font-family: "Calibri", sans-serif;
+    line-height: 1.8
+}
