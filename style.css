@@ -384,12 +384,14 @@ button#themeToggle:hover {
     text-align: center;
     font-weight:bold;
     color: rgb(250, 208, 211);
-    background-color: rgb(127, 17, 17)
+    background-color: rgb(127, 17, 17);
+    
  }
  .second {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     color: #af07a1;
     text-decoration: underline;
+    
     
  }
  .special {
@@ -402,5 +404,6 @@ button#themeToggle:hover {
 }
 .textofhourodcode {
     font-family: "Calibri", sans-serif;
-    line-height: 1.8
+    line-height: 1.8;
+    
 }
