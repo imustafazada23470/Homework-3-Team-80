@@ -176,18 +176,3 @@ function prevImage() {
 function nextImage() {
     showImage(currentIndex + 1);
   }
-  if (media[currentIndex].endsWith(".mp4")) {
-    mediaElement.outerHTML = `<video id="hocvideo" width="300" controls autoplay>
-                                <source src="${media[currentIndex]}" type="video/mp4">
-                                Your browser does not support the video tag.
-                              </video>`;
-  } else {
-    mediaElement.outerHTML = `<img id="hocvideo" src="${media[currentIndex]}" alt="Hoc7 video" width="300" height="200">`;
-  }
-  function prevMedia() {
-    showMedia(currentIndex - 1);
-  }
-  
-  function nextMedia() {
-    showMedia(currentIndex + 1)
-  }

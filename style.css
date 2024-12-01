@@ -568,4 +568,16 @@ button#themeToggle:hover {
     background-color: #45a049; 
 }
 
+.video {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #0050a0;
+        text-align:center;
+        background-color: #72ecff; 
+        max-width: 80%;
+        position: relative;
+        right:  -100px;
+}
+.hoc-video {
+    text-align:center;
 
+}
