@@ -581,3 +581,11 @@ button#themeToggle:hover {
     text-align:center;
 
 }
+.hocbackground {
+    background-image: url('https://img.freepik.com/premium-photo/pastel-background-with-cloud-pink-background-vector_179286-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
