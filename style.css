@@ -589,7 +589,6 @@ button#themeToggle:hover {
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
 
 .photo-section {
     display: flex;
@@ -612,5 +611,4 @@ button#themeToggle:hover {
 .preparation-photo:hover {
     transform: scale(1.05);
 }
-=======
->>>>>>> 0a9a40426bfce7db6deefc7ce8fa3eb11b1050f6
+
