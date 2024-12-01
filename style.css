@@ -107,7 +107,7 @@ button:hover {
 .Team {
     text-align: center;
     margin: 20px 0;
-    color: #500d4a;
+    color: #12027f;
     font-size: 2em;
 }
 
@@ -273,10 +273,10 @@ footer.reference p {
 }
 
 .background-sitara {
-    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_394561.jpg');
+    background-image: url('https://ceeus.ada.edu.az/uploads/menus/o_1drskttlak6k1j3r1c6r13fe121eb.png');
     background-size: cover;
     background-position: center;
-    opacity: 1; 
+    opacity: 0.65; 
     position: absolute;
     top: 0;
     left: 0;
@@ -440,7 +440,7 @@ button#themeToggle:hover {
     text-align: center;
     font-weight:bold;
     color: rgb(250, 208, 211);
-    background-color: rgb(138, 104, 169);
+    background-color: rgb(127, 17, 17);
     
  }
  .second {
@@ -568,14 +568,28 @@ button#themeToggle:hover {
     background-color: #45a049; 
 }
 
-body.hocall {
-    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210912/pngtree-aesthetic-background-pink-pastel-image_866344.jpg');
+.video {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #0050a0;
+        text-align:center;
+        background-color: #b0eef7; 
+        max-width: 80%;
+        position: relative;
+        right:  -100px;
+}
+.hoc-video {
+    text-align:center;
+
+}
+.hocbackground {
+    background-image: url('https://img.freepik.com/premium-photo/pastel-background-with-cloud-pink-background-vector_179286-1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 
 .photo-section {
     display: flex;
@@ -598,3 +612,5 @@ body.hocall {
 .preparation-photo:hover {
     transform: scale(1.05);
 }
+=======
+>>>>>>> 0a9a40426bfce7db6deefc7ce8fa3eb11b1050f6

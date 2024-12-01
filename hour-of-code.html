@@ -8,11 +8,11 @@
     <head>
         <title>Homework 3: Hour of Code event</title>
         <link rel="stylesheet" href="style.css">
-        
-    
+        <div class="hocbackground"></div>
+        <link rel="icon" href="TT.jpg".png type="image/png">
         <script type="text/javascript" src="scripts.js"></script>      
     </head>
-    <body class="hocall">
+    <body class="hocbackground" class="hocall">
         <h2 class="Hourofcode">Our hour of code event</h2> 
         <img src="hoc1.jpeg" width="300px" height="400px" class="hoc1">
         <h3 class="second"> Do you know what Hour of Code is?</h3>
@@ -66,15 +66,36 @@
       Not only did they permit us to organize the event, but they also supplied essential equipment: including computers, strong Wi-Fi, a projector, and a smartboard. 
       Additionally, they were always close to the classroom, checking if we were comfortable and if we had everything we needed during the event.
       We truly appreciate all the assistance they provided!</h4>
-      <img src="hoc7.jpg" width="800px" height="600px" class="hoc7">
-
+      <br>
+      <br>
       
+      <div>
+        <button onclick="prevImage()">❮</button>
+        <img id="hoc7" src="hoc7.jpg" alt="Image" width="800px" height="600px">
+        <button onclick="nextImage()">❯</button>
+      </div>
+      <script src="scripts.js"></script>
+      <br>
+      <br>
+      <br>
+      <h3 class="video"> If you enjoyed our event and want to see more, don't miss out on our Hour of Code video! It is packed with even more fun and interesting moments that will make you love coding. By watching the video, you will feel like you were part of the event during that day. Be sure to watch and join in on the special event!</h3>
+        
+      <br>
+    <div id="hoc-video">
+          <p class="hoc-video"><a href="https://www.youtube.com/watch?v=k4023YmYhcA" target="_blank">Click here for watching</a></p>
+        </div>
+      </div>
+      
+    
+      
+
+
       <button class="go-back" onclick="goToHomePage()">Go Back</button>
       <script>
           function goToHomePage() {
               window.location.href = "index.html"; 
           }
           </script>
-      
+          
     </body>
 </html>
