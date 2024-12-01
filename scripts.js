@@ -157,3 +157,23 @@ window.onload = function() {
 function toggleTheme() {
     document.body.classList.toggle('dark-theme');
 }
+const images = ["hoc7.jpg", "hoc8.jpg"]; 
+let currentIndex = 0;
+function showImage(index) {
+    if (index < 0) {
+      currentIndex = images.length - 1; 
+    } else if (index >= images.length) {
+      currentIndex = 0; 
+    } else {
+      currentIndex = index;
+    }
+
+document.getElementById("hoc7").src = images[currentIndex];
+}
+function prevImage() {
+    showImage(currentIndex - 1);
+  }
+function nextImage() {
+    showImage(currentIndex + 1);
+  }
+  
