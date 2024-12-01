@@ -107,7 +107,7 @@ button:hover {
 .Team {
     text-align: center;
     margin: 20px 0;
-    color: #500d4a;
+    color: #12027f;
     font-size: 2em;
 }
 
@@ -273,10 +273,10 @@ footer.reference p {
 }
 
 .background-sitara {
-    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_394561.jpg');
+    background-image: url('https://ceeus.ada.edu.az/uploads/menus/o_1drskttlak6k1j3r1c6r13fe121eb.png');
     background-size: cover;
     background-position: center;
-    opacity: 1; 
+    opacity: 0.65; 
     position: absolute;
     top: 0;
     left: 0;
